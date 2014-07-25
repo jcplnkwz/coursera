@@ -80,12 +80,12 @@ tidy1<-cbind(subtestntrain,tidytestntrain) #create a first tidy 10299 by 69 data
 #####################################################################################
 
 tidynames<-names(tidy1)
-i1<-gsub("()-X","XDirection", tidynames[1:66])
+i1<-gsub("()-X","XDirection", tidynames[1:69])
 i2<-gsub("()-Y","YDirection", i1)
 i3<-gsub("()-Z","ZDirection", i2)
 i4<-gsub("mean\\(\\)","mean", i3)
 names<-gsub("std\\(\\)","StDeviation", i4)
-colnames(tidy1)[4:69] <- names[1:66]
+colnames(tidy1)[1:69] <- names[1:69]
 
 ######################################################################################
 

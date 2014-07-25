@@ -33,7 +33,7 @@ The run\_analysis script performes the following steps:
 
 - Uses descriptive activity names to name the activities in the data set (using activity\_labels.txt)
 
-- Extracts only the measurements on the mean and standard deviation for each measurement (66 features).
+- Extracts only the measurements on the mean and standard deviation for each measurement (63 features).
 
 - Rename variables to clean illegal characters and make them more expressive.
 

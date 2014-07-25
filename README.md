@@ -1,4 +1,4 @@
-Files contained in this repository:
+Files in this repository:
 
 README.md : list of files in repo and brief description of their content.
 
@@ -6,7 +6,7 @@ codebook.md : contains informations on tidy data set variables, as well as infor
 
 run\_analysis.R : the actual R script to perform the analysis (it will also download and unzip the project raw data. If you already have them, just change directory names in read.table functions and remove the first few lines of the script).
 
-tidy\_dataset.txt: the tidy dataset required for the project (when read, set header=FALSE)
+tidy\_dataset.txt: the tidy dataset required for the project
 
 
 

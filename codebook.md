@@ -103,7 +103,7 @@ Select required features: those with "\*-mean\\(\\)|-std\*" pattern.
 
 Subset merged data frame selecting only columns corresponding to required features (mean and std).
 
-Create a 10299 by 69 data frame with PersonId, ActivityId, ActivityName and the 66 mean and standard deviation features.
+Create a 10299 by 66 data frame with PersonId, ActivityId, ActivityName and the 63 mean and standard deviation features.
 
 Change feature names according to these patterns:
 

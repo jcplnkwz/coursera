@@ -16,7 +16,6 @@ unzip("C:/data/courseproject.zip")
 
 #read data from files
 
-setwd("C:/Users/Jacopo/Documents")
 
 features<-read.table("C:/data/UCI HAR Dataset/features.txt")
 xtest<-read.table("C:/data/UCI HAR Dataset/test/X_test.txt")

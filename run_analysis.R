@@ -91,6 +91,6 @@ colnames(tidy1)[4:69] <- names[1:66]
 
 library("plyr")
 
-tidy2<-ddply(tidy1, c("PersonId", "ActivityName"), numcolwise(mean))  # create the second tidy data frame (dim=180*69), "plyr" package required.
+tidy2<-ddply(tidy1, c("PersonId", "ActivityName"), numcolwise(mean))  # create the second tidy data frame (dim=180*66), "plyr" package required.
 
 dim(tidy2)

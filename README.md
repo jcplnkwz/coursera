@@ -10,4 +10,4 @@ tidy\_dataset.txt: the tidy dataset required for the project
 
 
 
-N.B: to read tidy\_dataset.txt into R use read.table("C:/data/tidy\_dataset.txt", header=TRUE), so that [1,1]=1 and [1,2]=WALKING
+N.B: to read tidy.txt into R use read.table(".../tidy.txt", header=TRUE), so that [1,1]=1 and [1,2]=WALKING

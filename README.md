@@ -6,8 +6,8 @@ codebook.md : contains informations on tidy data set variables, as well as infor
 
 run\_analysis.R : the actual R script to perform the analysis (it will also download and unzip the project raw data. If you already have them, just change directory names in read.table functions and remove the first few lines of the script).
 
-tidy\_dataset.txt: the tidy dataset required for the project
+tidy\_dataset.txt: the tidy dataset required for the project (in Coursera submission form uploaded as "tidy-lenkowicz.txt"
 
 
 
-N.B: to read tidy.txt into R use read.table(".../tidy.txt", header=TRUE), so that [1,1]=1 and [1,2]=WALKING
+N.B: to read tidy.txt into R use read.table(".../tidy_dataset.txt", header=TRUE), so that [1,1]=1 and [1,2]=WALKING

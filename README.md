@@ -10,4 +10,4 @@ tidy\_dataset.txt: the tidy dataset required for the project (in Coursera submis
 
 
 
-N.B: to read tidy.txt into R use read.table(".../tidy_dataset.txt", header=TRUE), so that [1,1]=1 and [1,2]=WALKING
+N.B: to read tidy_dataset.txt into R use read.table(".../tidy_dataset.txt", header=TRUE), so that [1,1]=1 and [1,2]=WALKING
